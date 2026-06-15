@@ -2,6 +2,10 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+img {
+    width: 100%;
+}
+
 .hero-image {
     background-image: url("./images/scotland-1987599_1280.jpg") ;
     height: 352px;
@@ -17,4 +21,10 @@
     top: 180px;
     width: 100%;
     font-size: 4rem
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
